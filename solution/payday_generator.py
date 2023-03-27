@@ -36,7 +36,6 @@ def holidays_from_json():
     for holiday in holidays:
         if holiday['notes'] == "puhkepäev":
             holiday_dates.append(holiday['date'])
-    print(holiday_dates)
 
     return holiday_dates
 
